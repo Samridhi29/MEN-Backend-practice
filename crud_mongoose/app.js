@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const userModel = require("./usermodel");  //imports mongoose model
-mongoose.connect("mongodb+srv://sam:sam123@cluster0.0b81o8o.mongodb.net/", {
+mongoose.connect("mongodb+srv://sam:<password>@cluster0.0b81o8o.mongodb.net/", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
